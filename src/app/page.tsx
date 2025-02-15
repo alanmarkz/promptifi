@@ -1,8 +1,10 @@
 import Home from "./_components/home";
+import Navbar from "./_components/Navbar";
 
 const pages = () => {
   return (
-    <div>
+    <div className="flex flex-col">
+      <Navbar></Navbar>
       <Home />
     </div>
   );
