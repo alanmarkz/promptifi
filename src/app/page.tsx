@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Home from "./_components/home";
 
-export default function Home() {
+const pages = () => {
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center">
-      <div>A Sonic DeFAI</div>
+    <div>
+      <Home />
     </div>
   );
-}
+};
+
+export default pages;
