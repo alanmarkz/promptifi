@@ -5,7 +5,13 @@ const nextConfig: NextConfig = {
   webpack: (config) => {
     config.externals.push("pino-pretty", "lokijs", "encoding");
     return config;
-  } /* config options here */,
+  },
+  images: {
+    domains: ["coinmarketcap.com"],
+  },
+  experimental: {
+    serverComponentsHmrCache: false, // defaults to true
+  },
 };
 
 export default nextConfig;

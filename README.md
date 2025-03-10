@@ -34,3 +34,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+//swap 10 sonic token to usdc in sonic chain to 0x1b3eE54567FD6Ad97a4b2960DdFAe80131b585BF
+
+//bridge 10 sonic tokens from sonic chain to ethereum in ethereum chain 0x1b3eE54567FD6Ad97a4b2960DdFAe80131b585BF

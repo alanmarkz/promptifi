@@ -1,0 +1,90 @@
+{
+  "estimation": {
+    "srcChainTokenIn": {
+      "address": "0x0000000000000000000000000000000000000000",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "amount": "100000000000000000",
+      "approximateOperatingExpense": "381620905006830",
+      "mutatedWithOperatingExpense": false,
+      "approximateUsdValue": 272.6899217579897,
+      "originApproximateUsdValue": 272.6899217579897
+    },
+    "dstChainTokenOut": {
+      "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "BUSD Token",
+      "symbol": "BUSD",
+      "amount": "268310805294383159923",
+      "recommendedAmount": "268310805294383159923",
+      "maxTheoreticalAmount": "269118159773704272741",
+      "approximateUsdValue": 268.31080529438316,
+      "recommendedApproximateUsdValue": 268.31080529438316,
+      "maxTheoreticalApproximateUsdValue": 269.1181597737043
+    },
+    "costsDetails": [
+      {
+        "chain": "1",
+        "tokenIn": "0x0000000000000000000000000000000000000000",
+        "tokenOut": "0x0000000000000000000000000000000000000000",
+        "amountIn": "100000000000000000",
+        "amountOut": "99960000000000000",
+        "type": "DlnProtocolFee",
+        "payload": {
+          "feeAmount": "40000000000000",
+          "feeBps": "4",
+          "feeApproximateUsdValue": "0.10907596870319589"
+        }
+      },
+      {
+        "chain": "56",
+        "tokenIn": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+        "tokenOut": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+        "amountIn": "99960000000000000",
+        "amountOut": "99920016000000000",
+        "type": "TakerMargin",
+        "payload": { "feeAmount": "39984000000000", "feeBps": "4" }
+      },
+      {
+        "chain": "56",
+        "tokenIn": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+        "tokenOut": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+        "amountIn": "99920016000000000",
+        "amountOut": "99538395094993170",
+        "type": "EstimatedOperatingExpenses",
+        "payload": { "feeAmount": "381620905006830" }
+      },
+      {
+        "chain": "56",
+        "tokenIn": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+        "tokenOut": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "amountIn": "99538395094993170",
+        "amountOut": "269118159773704272741",
+        "type": "AfterSwap",
+        "payload": { "amountOutBeforeCorrection": "269118159773704272741" }
+      },
+      {
+        "chain": "56",
+        "tokenIn": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "tokenOut": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+        "amountIn": "269118159773704272741",
+        "amountOut": "268310805294383159923",
+        "type": "AfterSwapEstimatedSlippage",
+        "payload": {
+          "feeAmount": "807354479321112818",
+          "feeBps": "30",
+          "estimatedVolatilityBps": "9"
+        }
+      }
+    ],
+    "recommendedSlippage": 0.3
+  },
+  "tx": { "allowanceTarget": "0xeF4fB24aD0916217251F553c0596F8Edc630EB66" },
+  "order": { "approximateFulfillmentDelay": 3 },
+  "fixFee": "1000000000000000",
+  "userPoints": 283.21,
+  "integratorPoints": 70.8
+}

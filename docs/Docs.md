@@ -1,1 +1,7 @@
-![[Pasted image 20250214222029.png]]
+Debridge Router
+
+- Swap Coins 
+- Bridge Coins 
+
+DebridgeRoute - 
+	- srcChaid - destChainId

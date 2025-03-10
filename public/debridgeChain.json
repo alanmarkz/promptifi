@@ -1,0 +1,28 @@
+{
+  "chains": [
+    { "chainId": 1, "originalChainId": 1, "chainName": "Ethereum" },
+    { "chainId": 10, "originalChainId": 10, "chainName": "Optimism" },
+    { "chainId": 56, "originalChainId": 56, "chainName": "BSC" },
+    { "chainId": 137, "originalChainId": 137, "chainName": "Polygon" },
+    { "chainId": 250, "originalChainId": 250, "chainName": "Fantom" },
+    { "chainId": 8453, "originalChainId": 8453, "chainName": "Base" },
+    { "chainId": 42161, "originalChainId": 42161, "chainName": "Arbitrum" },
+    { "chainId": 43114, "originalChainId": 43114, "chainName": "Avalanche" },
+    { "chainId": 59144, "originalChainId": 59144, "chainName": "Linea" },
+    { "chainId": 7565164, "originalChainId": 7565164, "chainName": "Solana" },
+    { "chainId": 100000001, "originalChainId": 245022934, "chainName": "Neon" },
+    { "chainId": 100000002, "originalChainId": 100, "chainName": "Gnosis" },
+    { "chainId": 100000004, "originalChainId": 1088, "chainName": "Metis" },
+    { "chainId": 100000005, "originalChainId": 7171, "chainName": "Bitrock" },
+    { "chainId": 100000006, "originalChainId": 4158, "chainName": "CrossFi" },
+    {
+      "chainId": 100000010,
+      "originalChainId": 388,
+      "chainName": "zkEvmCronos"
+    },
+    { "chainId": 100000013, "originalChainId": 1514, "chainName": "Story" },
+    { "chainId": 100000014, "originalChainId": 146, "chainName": "Sonic" },
+    { "chainId": 100000017, "originalChainId": 2741, "chainName": "Abstract" },
+    { "chainId": 100000020, "originalChainId": 80094, "chainName": "Berachain" }
+  ]
+}

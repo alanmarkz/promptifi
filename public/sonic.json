@@ -1,0 +1,59 @@
+[
+  {
+    "chainId": 146,
+    "address": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+    "name": "USDC.e",
+    "symbol": "USDC.e",
+    "decimals": 6,
+    "logoURI": "https://sonicscan.org/token/images/usdc_32.png"
+  },
+  {
+    "chainId": 146,
+    "address": "0xe5da20f15420ad15de0fa650600afc998bbe3955",
+    "name": "Beets Staked Sonic",
+    "symbol": "stS",
+    "decimals": 18,
+    "logoURI": "https://sonicscan.org/token/images/sts_32.png"
+  },
+  {
+    "chainId": 146,
+    "address": "0xa04bc7140c26fc9bb1f36b1a604c7a5a88fb0e70",
+    "name": "SwapX",
+    "symbol": "SWPx",
+    "decimals": 18,
+    "logoURI": "https://sonicscan.org/token/images/swpx_64.png"
+  },
+  {
+    "chainId": 146,
+    "address": "0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38",
+    "name": "Wrapped Sonic",
+    "symbol": "wS",
+    "decimals": 18,
+    "logoURI": "https://sonicscan.org/token/images/wrappedsonic_32.svg"
+  },
+
+  {
+    "chainId": 146,
+    "address": "0x79bbf4508b1391af3a0f4b30bb5fc4aa9ab0e07c",
+    "name": "HeyAnon",
+    "symbol": "Anon",
+    "decimals": 18,
+    "logoURI": "https://sonicscan.org/token/images/heyanon_64.png"
+  },
+  {
+    "chainId": 146,
+    "address": "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE",
+    "name": "Sonic USD",
+    "symbol": "scUSD",
+    "decimals": 6,
+    "logoURI": "https://sonicscan.org/token/images/sonicusd_32.png"
+  },
+  {
+    "chainId": 146,
+    "address": "0x0e0Ce4D450c705F8a0B6Dd9d5123e3df2787D16B",
+    "name": "Wagmi",
+    "symbol": "WAGMI",
+    "decimals": 18,
+    "logoURI": "https://sonicscan.org/token/images/wagmi_64.png"
+  }
+]

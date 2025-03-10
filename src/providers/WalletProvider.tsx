@@ -17,7 +17,7 @@ function WalletProvider({
   children: React.ReactNode;
 }>) {
   return (
-    <WagmiProvider config={config} reconnectOnMount={false}>
+    <WagmiProvider config={config}>
       <QueryClientProvider client={client}>
         <RainbowKitProvider>{children}</RainbowKitProvider>
       </QueryClientProvider>
